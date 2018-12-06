@@ -1,9 +1,9 @@
-class PassportsController < ApplicationController
+class PassportsController < ProtectedController
   before_action :set_passport, only: [:show, :update, :destroy]
 
   # GET /passports
   def index
-    @passports = Passport.all
+    @passports = current_user.passports
 
     render json: @passports
   end
@@ -15,7 +15,7 @@ class PassportsController < ApplicationController
 
   # POST /passports
   def create
-    @passport = Passport.new(passport_params)
+    @passport = current_user.passports.build(passport_params)
 
     if @passport.save
       render json: @passport, status: :created, location: @passport
@@ -41,11 +41,13 @@ class PassportsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_passport
-      @passport = Passport.find(params[:id])
+      @passport = current_user.passports.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
     def passport_params
       params.require(:passport).permit(:title, :email, :cred, :url, :contact, :note)
     end
+
+     private :set_passport, :passport_params
 end
