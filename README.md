@@ -6,11 +6,16 @@ In the future the application should provide the users security info regarding t
 
 ## Links
 
-  - [Client]()
+  - [API](https://passportman-api.herokuapp.com/)
 
-  - [API]()
+  - [Client](https://acharlesl.github.io/Password-Manager-app/)
 
-  - [API Repo](https://github.com/ACharlesL/Password-Manager)
+  - [Client Repo](https://github.com/ACharlesL/Password-Manager-app)
+
+## ERDs
+
+  - [Imgur](https://i.imgur.com/OwCXnAA.jpg)
+
 
 ## Requirements
 
@@ -20,30 +25,27 @@ This application requires the following:
 
 ## Technologies used
 
-* HTML
-* CSS
 * AJAX
-* Sass
-* React
+* Ruby
 * Ruby on Rails
 
 ## Plan and Development process
 
 
 ## Unsolved Problems
-  -
-  -
-  -
+  - some UI improvements needed
+  - implement algorithm to encrypt and store password
 
 ## Wireframe
-  - [Imgur](https://i.imgur.com/eSNvdWz.png)
-  - [Imgur](https://i.imgur.com/1PNzo29.png)
-  - [Imgur](https://i.imgur.com/7fJr7L2.png)
+  - [Imgur](https://i.imgur.com/BaG8QYp.jpg)
+  - [Imgur](https://i.imgur.com/490lLU6.jpg)
+  - [Imgur](https://i.imgur.com/F7pJGK9.jpg)
+  - [Imgur](https://i.imgur.com/wxIjQWW.jpg)
 
 ## User Stories.
 * As a non credential user I should be able to sign up with and email address and password.
 * As credential user should be able to sign-in.
 * As a credential user I should be able change my password once logged in.
-* As a credential user I should be able to search for other users (V2)
-* As a credentialed user i should be able to select a language i wish to send and receive messages in.
-* As a credentialed user should be able to start messaging/chat with other credentialed users.
+* As a credential user I should be able to create a passport
+* As a credentialed user I should be able to edit a passport
+* As a credentialed user should be able delete a passport I created
