@@ -12,9 +12,9 @@ In the future the application should provide the users security info regarding t
 
   - [Client Repo](https://github.com/ACharlesL/Password-Manager-app)
 
-## ERDs
+## ERD
 
-  - [Imgur](https://i.imgur.com/OwCXnAA.jpg)
+  - [ERD](https://i.imgur.com/OwCXnAA.jpg)
 
 
 ## Requirements
