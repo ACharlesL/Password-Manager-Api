@@ -62,11 +62,44 @@ Passports:
 |  DELETE | /Passports/:id | Requires=> token: String |
 
 ## Plan and Development process
+  Day 1
+   - Completed most of the basis Docs.
+   - Setup my environment for client and server development
+   - Created User stories
+   - Create Wire Frames
+   - Created ERD
+   - Create passport manager(client) using provided template for browser template
+   - Created passport manager(api) with ruby and rails provided template
+   - Create Repo for both client and api and updated readme’s
+   - Work on deployment
+  Day 2-4
+   - Working on Rails api.
+   - Rails server setup.
+   - auth curl works (api)
+     CREATE
+     READ
+     UPDATE
+     DELETE
+   - Build rails api
+   - able to crud a resource of passport
+  Day 5
+   - build front end
+   - work on sign up form
+   - Signup works
+   - work on crud front end resource
+   - workin on crud in front end index/GET, show/GET, create/POST, update/PATCH, destroy/DELETE
 
 
 ## Unsolved Problems
   - some UI improvements needed
   - implement algorithm to encrypt and store password
+
+## Images
+  ![Alt text](/assets/image/snapshot1.jpg "App snapshot")
+  ![Alt text](/assets/image/snapshot2.jpg "App snapshot")
+  ![Alt text](/assets/image/snapshot3.jpg "App snapshot")
+  ![Alt text](/assets/image/snapshot4.jpg "App snapshot")
+
 
 ## Wireframe
   - [Sign up](https://i.imgur.com/BaG8QYp.jpg)
